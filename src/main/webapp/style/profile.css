@@ -1,0 +1,49 @@
+hr{
+    margin: 1rem;
+}
+
+section{
+    margin: 1.5rem auto;
+}
+
+.container{
+    width: 50%;
+    margin: 1.5rem auto;
+}
+
+.text-center{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.profile-subtitle{
+    margin: 0.7rem auto;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.field{
+    margin: 0.5rem 0;
+}
+
+.field > label{
+    margin-right: 5px;
+}
+
+.field > input{
+    border: 1px solid;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+.field > input:focus{
+    outline: none !important;
+    border: 2px solid #2565f8;
+}
+
+.button{
+    background-color: #2565f8;
+    
+}

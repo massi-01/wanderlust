@@ -1,0 +1,8 @@
+input {
+    border-color: red !important;
+}
+
+.error-message{
+    font-weight: 800;
+    color: red;
+}

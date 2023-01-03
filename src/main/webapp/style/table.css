@@ -1,0 +1,87 @@
+.table-container{
+    width: 100%;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.orders-table{
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    overflow-x: auto;
+    box-shadow: 0 0.5em 1em -0.125em 
+        rgba(10, 10, 10, 0.1), 0 0px 0 1px 
+        rgba(10, 10, 10, 0.02);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.orders-table > thead > tr{
+    background-color: #2565f8;
+    color: white;
+}
+
+.orders-table > thead td{
+    padding: 1rem;
+    font-weight: 1000;
+}
+
+.orders-table > tbody tr{
+    background-color: #eee;
+    border: 1px solid #eee;
+}
+
+.orders-table > tbody td{
+    padding: 20px;
+    margin: 2px;
+    font-weight: 600;
+}
+
+.search-box{
+    display:flex;
+    align-content: stretch;
+    background: #2565f8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    top: 50%;
+    left: 50%;
+    width:fit-content;
+    height: fit-content;
+    border-radius: 40px;
+}
+
+.search-btn{
+    text-decoration: none;
+    color:white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline:none;
+    float:left; 
+    padding: 0;
+    color:white;
+    font-size:16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width:0px;
+}
+
+.search-txt::placeholder{
+    color:white;
+}
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}

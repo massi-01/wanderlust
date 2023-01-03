@@ -1,0 +1,77 @@
+@import url("common.css");
+
+.login-logo{
+    width: 23rem;
+    height: auto;
+}
+
+.form{
+    background-color: #fff;
+    margin: 10rem auto auto auto;
+    padding: 1.5rem;
+    min-width: 16rem;
+    max-width: 35rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    box-shadow: 0 0.5em 1em -0.125em 
+        rgba(10, 10, 10, 0.1), 0 0px 0 1px 
+        rgba(10, 10, 10, 0.02);
+}
+
+.form-field{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.form-field input{
+    width: 100%;
+    margin: 5px;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 7px;
+    border: 2px solid #ccd6dd;
+    transition: 0.2s;
+}
+
+.form-field p{
+    margin: 5px;
+}
+
+.form-field textarea{
+    height: 9rem; 
+    width: 32rem;
+    border: 2px solid #ccd6dd;
+    border-radius: 7px;
+    transition: 0.2s;
+    outline: none;
+}
+
+.form-field input:focus, .form-field input:hover, .form-field textarea:focus, .form-field textarea:hover{
+    border-color: #2565f8;
+}
+
+.form-button{
+    outline: none;
+    border: none;
+    font-weight: 600;
+    border-radius: 25px;
+    color: #fff;
+    margin: 1.5rem auto;
+    padding: 0.7rem 2rem;
+    background-color: #2565f8;
+    transition: 0.1s;
+}
+
+.form-button:hover{
+    box-shadow: inset 0 0.5em 1em -0.125em 
+        rgba(10, 10, 10, 0.1), 0 0px 0 1px 
+        rgba(10, 10, 10, 0.02);
+}
+
+@media screen and (max-width:768px){
+    .form-field textarea{
+        width: 23.75rem;
+    }    
+}

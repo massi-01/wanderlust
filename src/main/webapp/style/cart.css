@@ -1,0 +1,170 @@
+.cart{
+    margin-top: 3rem;
+}
+
+.travel{
+    border-radius: 20px;
+    display: flex;
+    background-color: #eee;
+    max-width: 60rem;
+    height: 18rem;
+    margin-bottom: 3em;
+}
+
+.travel-body{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.travel-body > * {
+    display: block;
+}
+
+.travel-body > .description{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.travel-body{
+    margin: 0.5rem;
+}
+
+.travel-footer{
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.price{
+    margin: 0.6rem 0;
+}
+
+.travel-image{
+    width: 40%;
+    overflow: hidden;
+}
+
+.travel-image img{
+    height:  100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.page-title{
+    font-weight: bolder;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.page-subtitle{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.data-field{
+    margin-top: 8px;
+    margin-bottom: 35px;
+}
+
+.data-field p{
+    font-size: 20px;
+}
+
+.pay-now{
+    display: flex;
+    align-items: center;
+    max-width: 60rem;
+    justify-content: space-between;
+    border: 1px solid black; 
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+
+.pay-form{
+    display: flex;
+    align-items: left;
+    max-width: 60rem;
+    margin-bottom: 10p;
+    justify-content: space-between;
+    border: 1px solid black; 
+    padding: 10px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.pay-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pay-button{
+    text-decoration: none;
+    padding: 20px;
+    font-size:large;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #2565f8;
+    transition: 0.1s;
+}
+
+.total-price{
+    font-weight: bolder;
+    font-size:24px;
+    margin: 8px 0;
+}
+
+.quantity-button{
+    background-color: #2565f8;
+    border-radius: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.quantity-button span, .quantity-button p{
+    color: white;
+    font-size:12px; 
+    padding:6px;
+    font-weight: 800;
+}
+
+.quantity-button a:link, a:visited{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 980px)  {
+    .travel{
+        flex-direction: column;
+        min-width: 90%;
+        max-width: fit-content;
+        height: auto;
+    }
+
+    .travel-body, .travel-image{
+        width: 100%;
+    }
+
+    .travel-image img{
+        border-radius: 20px;
+        height: 30%;
+    }
+
+    
+}
+
+
