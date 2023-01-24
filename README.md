@@ -2,7 +2,7 @@
 
 
 In order to use this website you need to: 
-- Install java and maven
+- Install Java and Maven
 - Import the db folder into MySQLWorkbench (you can import it into MySQL Server as well) 
 - Import the project in vscode and install the extensions for Tomcat Server
 - Open a terminal in the project folder and type "mvn clean package"
